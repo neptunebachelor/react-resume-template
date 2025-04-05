@@ -131,74 +131,32 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Programming Languages',
     skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
+      { name: 'Java', level: 9 },
+      { name: 'Python', level: 6 },
+      { name: 'Go', level: 5 },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Backend & DevOps',
     skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
-        level: 6,
-      },
+      { name: 'Spring Boot', level: 8 },
+      { name: 'MySQL / PostgreSQL', level: 7 },
+      { name: 'Redis / Kafka', level: 6 },
+      { name: 'Docker / Kubernetes', level: 6 },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'SRE & Infrastructure',
     skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
-      },
-    ],
-  },
-  {
-    name: 'Mobile development',
-    skills: [
-      {
-        name: 'React Native',
-        level: 9,
-      },
-      {
-        name: 'Flutter',
-        level: 4,
-      },
-      {
-        name: 'Swift',
-        level: 3,
-      },
+      { name: 'Monitoring (Prometheus / Grafana)', level: 6 },
+      { name: 'CI/CD (GitHub Actions)', level: 5 },
+      { name: 'Terraform', level: 4 },
     ],
   },
 ];
+
 
 /**
  * Portfolio section
@@ -355,39 +313,33 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+    date: 'May 2020',
+    location: 'University of North Alabama',
+    title: 'Bachelor of Science in Computer Science',
+    content: <p></p>,
+  }
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'May 2021 – Present',
+    location: 'Vibrant Wellness LLC, San Jose, CA',
+    title: 'Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Developed backend for a medical order system using Java and Spring Boot. Built a chatbot for wellness test recommendations. 
+        Migrated services to Kubernetes and set up CI/CD. Used Kafka, Redis Pub/Sub, and Python for data analysis and monitoring.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Sep 2019 – Apr 2021',
+    location: 'Yeaher Inc, New Castle, DE',
+    title: 'Java Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Developed an ERP and warehouse management system using Spring Boot and MyBatis, improving
+        operational efficiency.
       </p>
     ),
   },
@@ -423,27 +375,22 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to reach out if you’d like to connect, collaborate, or just say hi.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'neptunebachelor@gmail.com',
+      href: 'mailto:neptunebachelor@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: 'San Jose, CA, US',
+      href: 'https://www.google.ca/maps/@37.3734304,-121.9329403,12.29z?entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D',
     },
     {
       type: ContactType.Github,
       text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      href: 'https://github.com/neptunebachelor',
     },
   ],
 };
@@ -452,9 +399,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/neptunebachelor'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jian-chang-9445b0150'}
 ];
