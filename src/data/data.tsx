@@ -320,7 +320,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'May 2021 – Feb 2025',
+    date: 'Aug 2021 – Feb 2025',
     location: 'Vibrant Wellness LLC, San Jose, CA',
     title: 'Software Engineer',
     content: (
@@ -331,7 +331,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'Sep 2019 – Apr 2021',
+    date: 'Sep 2020 – July 2021',
     location: 'Yeaher Inc, New Castle, DE',
     title: 'Java Developer',
     content: (
