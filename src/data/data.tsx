@@ -14,18 +14,31 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage1 from '../images/portfolio/portfolio-01.jpg';
+import porfolioImage2 from '../images/portfolio/portfolio-02.jpg';
+import porfolioImage3 from '../images/portfolio/portfolio-03.jpg';
+import porfolioImage4 from '../images/portfolio/portfolio-04.jpg';
+import porfolioImage5 from '../images/portfolio/portfolio-05.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-06.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-07.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-08.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-09.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
+import porfolioImage13 from '../images/portfolio/portfolio-13.jpg';
+import porfolioImage14 from '../images/portfolio/portfolio-14.jpg';
+import porfolioImage15 from '../images/portfolio/portfolio-15.jpg';
+import porfolioImage16 from '../images/portfolio/portfolio-16.jpg';
+import porfolioImage17 from '../images/portfolio/portfolio-17.jpg';
+import porfolioImage18 from '../images/portfolio/portfolio-18.jpg';
+import porfolioImage19 from '../images/portfolio/portfolio-19.jpg';
+import porfolioImage20 from '../images/portfolio/portfolio-20.jpg';
+import porfolioImage21 from '../images/portfolio/portfolio-21.jpg';
+import porfolioImage22 from '../images/portfolio/portfolio-22.jpg';
+import porfolioImage23 from '../images/portfolio/portfolio-23.jpg';
+import porfolioImage24 from '../images/portfolio/portfolio-24.jpg';
+import profilepic from '../images/selfie.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -69,18 +82,14 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `Jian Chang.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        I'm a San Jose-based <strong className="text-stone-100">Backend Software Engineer</strong> with a focus on building scalable, 
+        reliable systems using <strong className="text-stone-100">Java</strong>. 
+        I also have hands-on experience with <strong className="text-stone-100">Python</strong>, <strong className="text-stone-100">Go</strong>, 
+        and a growing passion for <strong className="text-stone-100">SRE practices</strong> I thrive on speed, strategy, and clean code..
       </p>
     </>
   ),
@@ -104,16 +113,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `
+  I love hitting the road on my motorcycle and exploring the Bay Area. When I’m not riding, I’m probably deep in a Dota 2 match.
+`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
+    {label: 'Location', text: 'San Jose, CA', Icon: MapIcon},
     {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Dota2', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of North Alabama', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Vibrant Wellness LLC', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -198,68 +207,146 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-01.jpg',
     image: porfolioImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-02.jpg',
     image: porfolioImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-03.jpg',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-04.jpg',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-05.jpg',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-06.jpg',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-07.jpg',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-08.jpg',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-09.jpg',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-10.jpg',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    url: '../images/portfolio/portfolio-11.jpg',
     image: porfolioImage11,
+  },
+  {
+    title: 'Project title 12',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-12.jpg',
+    image: porfolioImage12,
+  },
+  {
+    title: 'Project title 13',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-13.jpg',
+    image: porfolioImage13,
+  },
+  {
+    title: 'Project title 14',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-14.jpg',
+    image: porfolioImage14,
+  },
+  {
+    title: 'Project title 15',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-15.jpg',
+    image: porfolioImage15,
+  },
+  {
+    title: 'Project title 16',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-16.jpg',
+    image: porfolioImage16,
+  },
+  {
+    title: 'Project title 17',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-17.jpg',
+    image: porfolioImage17,
+  },
+  {
+    title: 'Project title 18',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-18.jpg',
+    image: porfolioImage18,
+  },
+  {
+    title: 'Project title 19',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-19.jpg',
+    image: porfolioImage19,
+  },
+  {
+    title: 'Project title 20',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-20.jpg',
+    image: porfolioImage20,
+  },
+  {
+    title: 'Project title 21',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-21.jpg',
+    image: porfolioImage21,
+  },
+  {
+    title: 'Project title 22',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-22.jpg',
+    image: porfolioImage22,
+  },
+  {
+    title: 'Project title 23',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-23.jpg',
+    image: porfolioImage23,
+  },
+  {
+    title: 'Project title 24',
+    description: 'Give a short description of your project here.',
+    url: '../images/portfolio/portfolio-24.jpg',
+    image: porfolioImage24,
   },
 ];
 
