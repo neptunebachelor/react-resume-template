@@ -130,26 +130,26 @@ export const skills: SkillGroup[] = [
   {
     name: 'Programming Languages',
     skills: [
-      { name: 'Java', level: 9 },
-      { name: 'Python', level: 6 },
-      { name: 'Go', level: 5 },
+      {name: 'Java', level: 9},
+      {name: 'Python', level: 6},
+      {name: 'Go', level: 5},
     ],
   },
   {
     name: 'Backend & DevOps',
     skills: [
-      { name: 'Spring Boot', level: 8 },
-      { name: 'MySQL / PostgreSQL', level: 7 },
-      { name: 'Redis / Kafka', level: 6 },
-      { name: 'Docker / Kubernetes', level: 6 },
+      {name: 'Spring Boot', level: 8},
+      {name: 'MySQL / PostgreSQL', level: 7},
+      {name: 'Redis / Kafka', level: 6},
+      {name: 'Docker / Kubernetes', level: 6},
     ],
   },
   {
     name: 'SRE & Infrastructure',
     skills: [
-      { name: 'Monitoring (Prometheus / Grafana)', level: 6 },
-      { name: 'CI/CD (GitHub Actions)', level: 5 },
-      { name: 'Terraform', level: 4 },
+      {name: 'Monitoring (Prometheus / Grafana)', level: 6},
+      {name: 'CI/CD (GitHub Actions)', level: 5},
+      {name: 'Terraform', level: 4},
     ],
   },
 ];
